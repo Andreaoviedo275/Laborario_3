@@ -71,11 +71,9 @@ El Análisis de Componentes Independientes (ICA) es un método que permite separ
 
 🔎 Ejemplo práctico:
 
-Imagina que tienes dos micrófonos en una sala donde están hablando Laura y Andrea.
-
-Cada micrófono captará una mezcla de ambas voces con diferente intensidad.
-
-ICA analizará la señal e intentará separar las fuentes independientes, recuperando las voces originales.
+- Imagina que tienes dos micrófonos en una sala donde están hablando Laura y Andrea.
+- Cada micrófono captará una mezcla de ambas voces con diferente intensidad.
+- ICA analizará la señal e intentará separar las fuentes independientes, recuperando las voces originales.
 
 📌 Pasos realizados en ICA:
 
