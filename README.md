@@ -143,6 +143,8 @@ El Análisis de Componentes Principales (PCA) es un método matemático utilizad
 
 ✔️ Aplicar PCA para extraer las voces.
 
+✔️ Guardar las voces separadas en archivos WAV.
+
 ✔️ Graficar las señales separadas y sus espectros de frecuencia.
 
 📌 Código (fragmento de PCA):
