@@ -51,6 +51,9 @@ Cada grabación tiene una duración de 15 segundos.
 
 🌍 Ruido ambiental: Captado por otro celular.
 
+![Imagen de WhatsApp 2025-03-03 a las 20 22 55_ba03838e](https://github.com/user-attachments/assets/772f1a1d-51f6-4930-9aed-6cd7ae1c8748)
+Fig 1. Organización de los microfonos 
+
 
 🚀 Instalación y Configuración
 Antes de ejecutar los scripts, instala las dependencias necesarias:
@@ -113,10 +116,10 @@ El Análisis de Componentes Independientes (ICA) es un método que permite separ
         guardar_audio('VozLauraSeparada_ICA.wav', fs_ruido, voz2_separada)
 
 ![ICA-ESPECTRO](https://github.com/user-attachments/assets/4f27dc92-1aa6-4847-acbd-c9e35dae6ff0)
-Fig 1. Ica espectro
+Fig 2. Ica espectro
 
 ![ICA-TODAS](https://github.com/user-attachments/assets/768700c2-46b8-43f8-bed6-684bfe4ee758)
-Fig 2. Ica todas
+Fig 3. Ica todas
 
 2️⃣ Método PCA (Principal Component Analysis) – Separación de la Voz de Andrea
 
@@ -236,10 +239,10 @@ El Análisis de Componentes Principales (PCA) es un método matemático utilizad
         sd.wait()  # Espera a que termine la reproducción
 
 ![PSA-ESPECTRO](https://github.com/user-attachments/assets/d3228fab-2cd0-48d5-afac-30651b8f35fb)
-Fig 3. PCA espectro
+Fig 4. PCA espectro
 
 ![PCA-TODAS](https://github.com/user-attachments/assets/17233842-397c-4eab-8230-da00f576c101)
-Fig 4. PCA todas
+Fig 5. PCA todas
 
 
 📈 Resultados y Análisis 
@@ -259,7 +262,7 @@ El SNR (Signal-to-Noise Ratio) mide qué tan fuerte es la señal deseada en comp
 
 ![{F4CFC1C5-5424-4002-A313-1D0534AD347A}](https://github.com/user-attachments/assets/01b0d82b-bc20-4c1c-8851-dd19a90f652f)
 
-Fig 5. Fórmula del SNR
+Fig 6. Fórmula del SNR
 
 📌 Valores obtenidos:
 
@@ -292,11 +295,11 @@ Aquí se muestran los valores de SNR obtenidos al ejecutar los métodos de separ
 
 ![Imagen de WhatsApp 2025-03-01 a las 13 24 56_bbfc5c3d](https://github.com/user-attachments/assets/644d3fca-2211-4b80-ac9f-e5038a866a60)
 
-Fig 6. SNR de Ica
+Fig 7. SNR de Ica
 
 ![Imagen de WhatsApp 2025-03-01 a las 13 25 15_69f82c20](https://github.com/user-attachments/assets/7907cfa4-c7ef-4baf-a163-be2c4fda7d78)
 
-Fig 7. SNR de PCA
+Fig 8. SNR de PCA
 
 3️⃣ Análisis Espectral de las Señales Separadas
 
